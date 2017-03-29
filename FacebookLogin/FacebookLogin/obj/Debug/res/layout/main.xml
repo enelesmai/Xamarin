@@ -1,0 +1,14 @@
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"><com.facebook.login.widget.LoginButton android:id="@+id/login_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_marginTop="30dp" android:layout_marginBottom="30dp" /><!--
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="My Facebook Login button"
+      android:layout_gravity="center" />
+      --><com.facebook.login.widget.ProfilePictureView android:id="@+id/profilePic" android:layout_height="100dp" android:layout_width="100dp" android:layout_gravity="center_horizontal" /><TextView android:id="@+id/txtFirstName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="First Name" android:textColor="#999" android:textSize="18sp" android:layout_gravity="center" android:padding="5dp" /><TextView android:id="@+id/txtLastName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Last Name" android:textColor="#999" android:textSize="18sp" android:layout_gravity="center" android:padding="5dp" /><TextView android:id="@+id/txtName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name" android:textColor="#999" android:textSize="18sp" android:layout_gravity="center" android:padding="5dp" /><!--<com.facebook.login.share.widget.ShareButton
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />--><Button android:id="@+id/btnShare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Share" android:layout_gravity="center" /><com.facebook.share.widget.LikeView android:id="@+id/likeView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:padding="5dp" /></LinearLayout>
